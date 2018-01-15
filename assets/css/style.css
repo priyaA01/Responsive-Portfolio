@@ -1,0 +1,147 @@
+/*Layout styles */
+ body{
+     margin-left:auto;
+     margin-right:auto ;
+     background-color: #4aaaa5;
+     height:100vh;
+     font-family:'Arial', sans-serif ;
+     font-size: 15px;
+     color:#777777;
+     background-image:url("../images/circles.png");
+}
+ header{
+     position:relative;
+     margin-top:auto;
+     margin-bottom:10px;
+     padding:30px;
+     color:white;
+    /*background-color: white;
+    */
+}
+ nav{
+     position:absolute;
+     top:0;
+     right:15%;
+     text-align:center;
+     color:white;
+}
+ .container{
+     width:960px;
+     margin-right: auto;
+     margin-left:auto;
+     margin-top:20px;
+     height:90%;
+}
+ section{
+     float:left;
+     width:640px;
+     border-color: #dddddd;
+     padding:10px;
+     background-color:#ffffff;
+}
+ aside{
+     float:right;
+     width:170px;
+     padding:30px;
+     border-color: #dddddd;
+     background-color:#ffffff;
+}
+ footer{
+     text-align: center;
+     background-color:#666666;
+     clear:both;
+     padding:10px;
+     color:white;
+     position: fixed;
+     right:0;
+     left:0;
+     bottom: 0;
+}
+/*Headings styles */
+ h1{
+     position:absolute;
+     bottom:0px;
+     left:15%;
+     display:inline;
+     padding:10px;
+     font-family:'Georgia', Serif;
+     background-color: #4aaaa5;
+     font-size: 20px;
+}
+ h2{
+     padding:10px;
+     color:#4aaaa5;
+     font-family:'Georgia', Serif;
+     font-size: 18px;
+}
+/* Menu list */
+ ul{
+     list-style-type: none;
+     overflow: hidden;
+     padding-left:10px;
+}
+/* Menu list content */
+ .lia{
+     text-decoration: none;
+     text-align: center;
+     color:#777777;
+}
+ .li{
+     float: left;
+     padding:10px;
+}
+ a:visited{
+     color:#777777;
+}
+ a:hover{
+     color: red;
+     transition: color 1s;
+}
+ section:hover {
+     background-image:url("../images/circles(1).png");
+}
+ aside:hover{
+     background-image:url("../images/circles(1).png");
+}
+ span{
+     display:block;
+     padding:10px;
+}
+ span::first-line{
+     color:#4aaaa5;
+}
+ p{
+     padding:10px;
+}
+ img{
+     float:left;
+     padding:10px;
+}
+ form{
+     padding:10px;
+}
+ input[type=text],textarea{
+     width:100%;
+}
+ input[type=submit]{
+     background-color:#4aaaa5;
+     color:white;
+     padding:10px 20px;
+}
+ .imageContainer{
+     float:left;
+     position:relative;
+     padding:10px;
+}
+ .imageDiv{
+     position:absolute;
+     bottom:30px;
+     right:22px;
+     left:22px;
+     text-align:center;
+     padding:5px;
+     color:white;
+     background-color: #4aaaa5;
+}
+ 
+ 
