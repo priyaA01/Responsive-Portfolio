@@ -264,4 +264,7 @@ input[type=submit]:hover {
      .imageContainer {
           width: 95%;
      }
+     footer p{
+          font-size:12px;
+     }
 }
