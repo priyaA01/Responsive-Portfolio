@@ -121,32 +121,37 @@ a:hover
  p{
      padding:5px;
 }
+#profileImg{
+    border-radius:50%;
+     max-width: 100%;
+    height: auto;
+}
  img{
      float:left;
-     padding:10px;
-     
+     padding:10px;     
  } 
  form{
      padding:10px; 
 }
  input[type=text],textarea{
      width:100%;
+     padding:10px;
 }
  input[type=submit]{
      background-color:#4aaaa5;
      color:white;
      padding:10px 20px;
 }
+input[type=submit]:hover {
+    background: #5e7f7e;
+}
  .imageContainer{
      float:left;
      padding:10px;
-     width:300px;
+     width:250px;
      position:relative;
-}
-
-.imageContainer:nth child(even)
-{
-     margin-right:40px;
+     margin:10px;
+     height:auto;
 }
 
 .imageContainer img{
@@ -155,13 +160,14 @@ a:hover
     }
  .imageContainer h3{
      position:absolute;
-     bottom:15%  ;
+     bottom:15% ;
      left:20px;
+     right:20px;
      text-align:center;
-     padding:5px;
+     padding:10px;
      color:white;
      background-color: #4aaaa5;
-     width:87%;
+     
 }
 #faC{
      color:#777777;
@@ -171,31 +177,36 @@ a:hover
 @media screen and (max-width:980px){
      .Container{
           width:100%;
+     }
+     section{
+          width:75%;
      } 
+     aside{
+          width:20%;
+     }
+     
+     h1{
+          margin-left:0;
+     }
+   
+}
+
+@media screen and (max-width:768px){
+     .Container{
+         width:100%;
+    } 
      section,aside{
           width:100%;
           padding:10px; 
      }
-
-     aside{
-          margin-top:20px;
-     }
-
-}
-
-@media screen and (max-width:768px){
-     .Container,.imageContainer{
-         width:100%;
-    } 
-     section,aside,form,input[type=text],textarea{
-          width:100%;
-          padding:10px; 
+     h1{
+          margin-left:0;
      }
 
      aside{
           margin-top:20px;
      }
-    
+     
 }
 
 @media screen and (max-width:640px){
